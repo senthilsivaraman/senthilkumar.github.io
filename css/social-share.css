@@ -20,7 +20,7 @@
     padding: 0px 0;
 }
 .ct-socials li a {
-    background: #3f4653;
+    background:rgb(58, 54, 61);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -38,6 +38,7 @@
     float: right;
     padding-left: 5px;
 }
+
 .ct-socials li a:hover {
     cursor: pointer;
     opacity: 0.7;
