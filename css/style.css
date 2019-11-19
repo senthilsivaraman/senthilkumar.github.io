@@ -18,7 +18,11 @@
 }
 
 
-@media(min-width:1199px){
+.p-4{
+    padding: 4em !important;
+}
+
+/* @media(min-width:1199px){
     .p-4{
         padding: 4em !important;
     }
@@ -26,6 +30,15 @@
         padding: 4em !important;
     }
 }
+
+@media(min-width:600px){
+    .p-4{
+        padding: 4em !important;
+    }
+    .port-item{
+        padding: 4em !important;
+    }
+} */
 
 
 .cont {
