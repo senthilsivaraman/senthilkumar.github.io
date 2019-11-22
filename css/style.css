@@ -8,9 +8,7 @@
     }
 }
 
-.text-responsive {
-    font-size: calc(100% + 1vw + 1vh);
-  }
+
 
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
