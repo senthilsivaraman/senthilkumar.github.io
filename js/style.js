@@ -10,3 +10,4 @@ $('.tabs-title a').click(function(e){
         slidingComponent.css('height',listHeight);
         slidingComponent.css('transform', 'translateY('+activePosition+'px)');
     }); 
+

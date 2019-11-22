@@ -219,8 +219,15 @@ span.navHead {
     font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
   }
 
+  .tabs-title2>a {
+    display: block;
+    padding: 1.25rem 1.5rem;
+    font-size: .75rem;
+    line-height: 1;
+}
+
    /*Left Border Line*/
-   li.tabs-title{
+   li.tabs-title, li.tabs-title2{
     border-left:3px solid; 
     color:rgb(96, 106, 134);
   }
@@ -235,7 +242,17 @@ span.navHead {
     background-color: rgb(100, 255, 218); 
     border:none; 
     transition: all 0.3s ease-out;
-    color: salmon;
+}
+
+    .tabs.vertical .sliding-border2{
+    display: inline-block;
+    position: absolute; 
+    width: 3px;
+    left: 0px; 
+    top:0px; 
+    background-color: rgb(100, 255, 218); 
+    border:none; 
+    transition: all 0.3s ease-out;
 }
 
    /*Selected Tab*/
@@ -243,17 +260,18 @@ span.navHead {
     background:transparent;
   }
 
+  .tabs-title2>a:focus, .tabs-title2>a[aria-selected=true]{
+    background:transparent;
+  }
+
+
   /*Tab Names*/
-  #workName{
+  #workName, #eduName{
     color: rgb(230, 241, 255);
   }
 
-  #workName:active{
-    color:red;
-  }
-
   /*Tab on hover and selected*/
-  #workName:hover{
+  #workName:hover, #eduName:hover{
       background:#293D5A;
       border: none;
       font-family: 'Times New Roman', Times, serif;
@@ -265,7 +283,7 @@ span.navHead {
       text-decoration: none;
   }
 
-  #workName:focus {
+  #workName:focus, #eduName:focus{
     background: #293D5A;
     border: none;
     font-family: 'Times New Roman', Times, serif;
@@ -278,17 +296,17 @@ span.navHead {
  
 
   /* Job Description*/
-  li.workdescription {
+  li.workdescription, li.expdescription {
       list-style-type: none;
 }
 
-  li.workdescription::before {
+  li.workdescription::before, li.expdescription::before {
       content: "►";
       line-height: 40px;
       padding-right: 2em;
   }
 
-  .experience{
+  .experience, .education{
       background:rgb(10, 25, 47);
       color: rgb(230, 241, 255);
   }
