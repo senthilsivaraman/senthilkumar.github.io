@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
     crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.0-rc.3/dist/css/foundation.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/social-share.css">
   <title>Senthilkumar Sivaraman - Portfolio</title>
@@ -30,360 +31,424 @@
         <li>
             <a href="https://twitter.com/SanguineSenthil" class="twitter text-white" target="_blank" ><i class="fab fa-twitter"></i></a>
         </li>
-      </ul>
+  </ul>
 
 
 <!-- Header -->
   <div class="container">
       <header id="main-header">
           <div class="row no-gutters">
+
               <div class="col-lg-4 col-md-5">
-                <img src="img/IMG-1076.JPG" alt="myself">  
+                <img class="rounded mx-auto d-block" src="img/IMG-1076.JPG" alt="myself">  
               </div>
+              
               <div class="col-lg-8 col-md-7">
                 <div class="d-flex flex-column">
                   
                     <!-- Row 1 -->
-                    <div class="p-5 bg-dark text-white">
-                        <div class="d-flex flex-row m-7">
-                            <h1 class="text-sm-left">Hi, I'm Senthilkumar Sivaraman (Senthil)</h1>
+                    <div class="p-3">
+                        <div class="d-flex flex-row">
+                            <h1 class="herotitle1 mt-3 pr-2">Hi, I'm</h1>
+                            <h1 class="herotitle2"><span>Senthilkumar Sivaraman (Senthil)</span></h1> 
                         </div>
                     </div>
                     
                     <!-- Row 2 -->
-                    <div class="p-2 bg-secondary text-white">
+                    <div class="p-1">
                         <div class="d-flex flex-row">
-                            <h3 class="text-sm-left ml-2 mt-1 mb-0 text-justify font-weight-bold">Full Stack .Net Developer</h3>
+                          <span class="navHead h2 text-sm-left ml-2 mt-1 mb-0 text-justify font-weight-bold">Full Stack .Net Developer</span>
                         </div>
                     </div>
 
-                    <!-- Row 2 -->
-                    <div class="p-2 bg-secondary text-white">
+                    <!-- Row 3-->
+                    <div class="p-1 text-white">
                             <div class="d-flex flex-row">
-                                <p class="m-2 text-justify">If you are looking for a passionate developer with CMS(Sitecore) knowledge and proven record building
-                                     Web applications using .Net Frameworks - ASP.NET, MVC, Web API and styling using HTML, CSS, Bootstrap, I can help with that. 
-                                     I have good working knowledge in CMS (Sitecore) and Industry knowledge on Retail, CPG (Consumer packaged goods), Healthcare and
+                                <p class="m-2 text-justify">If you are looking for a passionate developer with CMS(Sitecore) knowledge and proven record in building
+                                     Web applications using .Net Frameworks - ASP.NET Web Forms, MVC, Web API and styles using HTML, CSS & Bootstrap, I can help with that. 
+                                     I have good working knowledge in Sitecore and Industry knowledge on Retail, CPG (Consumer packaged goods), Healthcare and
                                       Telecom. Most of my project contributions are for <strong>Procter & Gamble, DNOW</strong> and <strong>Mitel</strong> in 
                                       building and maintaining their applications. Also, I started learning AWS, Azure and AngularJS to make myself update with 
                                       the latest trend.</p>
                             </div>
                         </div>
-
-                    <!-- Row 3 -->
-                    <div>
-                        <div class="d-flex flex-row text-white align-items-stretch text-center">
-                            <div class="port-item p-4 bg-primary" data-toggle="collapse" data-target="#skills">
-                                <i class="fas fa-bolt fa-2x d-block"></i>
-                                <span class="d-none d-sm-block">
-                                    Skills
-                                </span>
-                            </div>
-                            <div class="port-item p-4 bg-success" data-toggle="collapse" data-target="#resume">
-                                    <i class="fas fa-id-badge fa-2x d-block"></i>
-                                    <span class="d-none d-sm-block">
-                                        Resume
-                                    </span>
-                            </div>
-                            <div class="port-item p-4 bg-warning" data-toggle="collapse" data-target="#work">
-                                    <i class="fas fa-code fa-2x d-block"></i>
-                                    <span class="d-none d-sm-block">
-                                        Work
-                                    </span>
-                            </div>
-                            <div class="port-item p-4 bg-danger" data-toggle="collapse" data-target="#contact">
-                                    <i class="fas fa-envelope fa-2x d-block"></i>
-                                    <span class="d-none d-sm-block">
-                                        Hire Me
-                                    </span>
-                            </div>
-                        </div>
-                    </div>
-
+                   
+                    
                 </div>
               </div>
-          </div>
+        </div>
       </header>
 
-    <!-- HOME -->
-    <div id="skills" class="collapse show">
-        <div class="card card-body bg-primary text-white py-4">
-          <h2 class="font-weight-bold text-left">My Technical Skills</h2>
+  
+  
+   <!-- Menu row -->
+   
+      <div class="menus">
+        <div class="d-flex flex-row align-items-stretch text-center">
+            <div class="port-item p-4 " data-toggle="collapse" data-target="#skills">
+                <i class="fas fa-bolt fa-2x d-block"></i>
+                <span class="navHead d-none d-sm-block">
+                    Skills
+                </span>
+            </div>
+            <div class="port-item p-4" data-toggle="collapse" data-target="#profile">
+                <i class="fas fa-id-badge fa-2x d-block"></i>
+                <span class="navHead d-none d-sm-block">
+                    Profile
+                </span>
+            </div>
+            <div class="port-item p-4" data-toggle="collapse" data-target="#work">
+                <i class="fas fa-code fa-2x d-block"></i>
+                <span class="navHead d-none d-sm-block">
+                    Work
+                </span>
+            </div>
+            <div class="port-item p-4" data-toggle="collapse" data-target="#contact">
+                <i class="fas fa-envelope fa-2x d-block"></i>
+                <span class="navHead d-none d-sm-block">
+                    Hire Me
+                </span>
+            </div>
+            <div class="port-item p-4" data-toggle="collapse" data-target="">
+                <i class="fas fa-id-card fa-2x d-block"></i>
+                <span class="navHead d-none d-sm-block">
+                    Resume
+                </span>
+            </div>
         </div>
-        <div class="card card-body py-5">
+    </div>
+
+
+
+    <!-- Skills Content -->
+    <div id="skills" class="collapse show">
+       
+        <div class="card card-body py-1 border-0">
+          <h2 class="font-weight-bold text-left">What I Know</h2>
+        </div>
+       
+        <div class="card card-body py-1 border-0">
                 <p class="mt-0 text-justify">I have worked with variety of programming languages. For professional projects I used Sitecore, ASP.NET MVC, Web API, Entity Framework and styling 
                         languages; for building prototypes I use Web Forms; and during my coursework I used C++, Python and R for assignments.</p>
-                        <p>Here are a few technologies I've been working with recently and my proficiency level:</p>
-                    <hr>
-			<div class="row p-3 border-top-0 ">
-				<div class="col-md-4">
-					<p>C#</p>
-					<div class="cont">
-					  <div class="skills csharp">85%</div>
-					</div>
+                <p class="mt-0 text-justify">Here are a few technologies I've been working with recently and my proficiency level:</p>
 
-                    <p>ASP.NET MVC5</p>
-					<div class="cont">
-					  <div class="skills mvc">75%</div>
-                    </div>
-                    
-					<p>Sitecore</p>
-					<div class="cont">
-					  <div class="skills sitecore">85%</div>
-					</div>
+          <div class="row p-3 border-top-0 align-items-stretch">
+           
+            <!-- COL1 -->
+            <div class="col-md-4 ">            
+              <p>C#</p>
+              <div class="cont">
+                <div class="skills csharp">85%</div>
+              </div>
 
-					<p>Object Oriented Programming</p>
-					<div class="cont">
-					  <div class="skills oop">90%</div>
-					</div>
-					
-					<p>SQL</p>
-					<div class="cont">
-					  <div class="skills sql">85%</div>
-                    </div>
-                    
-                    <p>WebAPI</p>
-					<div class="cont">
-					  <div class="skills api">70%</div>
-					</div>
-					
-				</div>
-				<div class="col-md-4">
-					<p>HTML, CSS</p>
-					<div class="cont">
-					  <div class="skills html">80%</div>
-					</div>
-					
-					<p>Bootstrap</p>
-					<div class="cont">
-					  <div class="skills bs">70%</div>
-					</div>
-					
-					<p>JavaScript, JQuery</p>
-					<div class="cont">
-					  <div class="skills js">70%</div>
-					</div>
-					
-					<p>AngularJS</p>
-					<div class="cont">
-					  <div class="skills angular">65%</div>
-					</div>
-					
-					<p>C++</p>
-					<div class="cont">
-					  <div class="skills cplus">70%</div>
-                    </div>
-                    
-                    <p>R</p>
-					<div class="cont">
-					  <div class="skills rprogram">65%</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<p>AWS, Azure</p>
-					<div class="cont">
-					  <div class="skills aws">65%</div>
-					</div>
-					
-					<p>GitHub</p>
-					<div class="cont">
-					  <div class="skills git">85%</div>
-					</div>
-					
-					<p>JIRA</p>
-					<div class="cont">
-					  <div class="skills jira">95%</div>
-					</div>
-					
-					<p>Artificial Intelligence</p>
-					<div class="cont">
-					  <div class="skills ai">55%</div>
-                    </div>
-                    
-                    <p>Design Patterns</p>
-					<div class="cont">
-					  <div class="skills dp">55%</div>
-					</div>
-				</div>
-			</div>
-		</div>
+              <p>ASP.NET MVC5</p>
+              <div class="cont">
+                <div class="skills mvc">75%</div>
+              </div>
+                        
+              <p>Sitecore</p>
+              <div class="cont">
+                <div class="skills sitecore">85%</div>
+              </div>
+
+              <p>Object Oriented Programming</p>
+              <div class="cont">
+                <div class="skills oop">90%</div>
+              </div>
+              
+              <p>SQL</p>
+              <div class="cont">
+                <div class="skills sql">85%</div>
+              </div>
+                        
+              <p>WebAPI</p>
+              <div class="cont">
+                <div class="skills api">70%</div>
+              </div>				
+            </div>
+
+            <!-- COL2 -->
+            <div class="col-md-4">
+              <p>HTML, CSS</p>
+              <div class="cont">
+                <div class="skills html">80%</div>
+              </div>
+              
+              <p>Bootstrap</p>
+              <div class="cont">
+                <div class="skills bs">70%</div>
+              </div>
+              
+              <p>JavaScript, JQuery</p>
+              <div class="cont">
+                <div class="skills js">70%</div>
+              </div>
+              
+              <p>AngularJS</p>
+              <div class="cont">
+                <div class="skills angular">65%</div>
+              </div>
+              
+              <p>C++</p>
+              <div class="cont">
+                <div class="skills cplus">70%</div>
+              </div>
+                        
+              <p>R</p>
+              <div class="cont">
+                <div class="skills rprogram">65%</div>
+              </div>
+            </div>
+          
+            <!-- COL3 -->
+            <div class="col-md-4">
+              <p>AWS, Azure</p>
+              <div class="cont">
+                <div class="skills aws">65%</div>
+              </div>
+              
+              <p>GitHub</p>
+              <div class="cont">
+                <div class="skills git">85%</div>
+              </div>
+              
+              <p>JIRA</p>
+              <div class="cont">
+                <div class="skills jira">95%</div>
+              </div>
+              
+              <p>Artificial Intelligence</p>
+              <div class="cont">
+                <div class="skills ai">55%</div>
+              </div>
+                        
+              <p>Design Patterns</p>
+              <div class="cont">
+                <div class="skills dp">55%</div>
+              </div>
+            </div>
+
+		    	</div>
+		    </div>
      </div>
 
 
-
-  <!-- RESUME -->
-  <div id="resume" class="collapse">
-        <div class="card card-body bg-success text-white py-5">
-          <h2>My Resume</h2>
-          <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, ut!</p>
+  <!-- Profile Content -->
+  <div id="profile" class="collapse">
+        <div class="card card-body py-1 border-0">
+          <h2 class="font-weight-bold text-left">Where I've Worked</h2>
         </div>
-  
-        <div class="card card-body py-5">
-          <h3>Where Have I Worked?</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque similique saepe inventore rem vitae esse.</p>
-          <div class="card-deck">
-            <div class="card">
-              <div class="card-body">
-                <h4 class="card-title">Devmasters</h4>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, magnam.</p>
-                <p class="p-2 mb-3 bg-dark text-white">
-                  Position: Full Stack Developer
-                </p>
-                <p class="p-2 mb-3 bg-dark text-white">
-                  Phone: (444) 444-4444
-                </p>
+
+        <div class="card card-body py-1 border-0">
+                  
+          <!-- Work Slider -->
+          
+            <div class="grid-x grid-margin-x">
+              <div class="cell medium-2">
+                <ul class="vertical tabs mt-3 nav-justified" data-tabs id="example-tabs">
+                  <li class="sliding-border"></li>
+                  <li class="tabs-title is-active"><a id="workName" href="#panel1v" aria-selected="true">TARDIS</a></li>
+                  <li class="tabs-title"><a id="workName" href="#panel2v">Element Blue</a></li>
+                  <li class="tabs-title"><a id="workName" href="#panel3v">UofH</a></li>
+                  <li class="tabs-title"><a id="workName" href="#panel4v">Independent</a></li>
+                  <li class="tabs-title"><a id="workName" href="#panel5v">Mindtree</a></li>
+                </ul>
               </div>
-              <div class="card-footer">
-                <h6 class="text-muted">Dates: 2015 - 2018</h6>
+              <div class="cell medium-8 ">
+                <div class="tabs-content border-0" data-tabs-content="example-tabs">
+                  <div class="experience tabs-panel is-active" id="panel1v">
+                    <p class="font-weight-bold"> Software Consultant <span style="color: rgb(100, 255, 218);">@ TARDIS</span></p>
+                    <p>Jan 2019 - Present</p>
+                      <div>
+                        <ul>
+                          <li class="workdescription">Returned values by strengthening our co-op members’ ability to anticipate and adapt to changing markets, economies, 
+                            environments and technologies</li>
+                          <li class="workdescription">Developed results-driven research architecture processes</li>
+                          <li class="workdescription">Returned values by strengthening our co-op members’ ability to anticipate and adapt to changing markets, economies, 
+                            environments and technologies</li>
+                          <li class="workdescription">Developed results-driven research architecture processes</li>
+                        </ul>
+                      </div>
+                  </div>
+                  <div class="experience tabs-panel" id="panel2v">
+                      <p class="font-weight-bold">Sitecore Developer <span style="color: rgb(100, 255, 218);">@ Element Blue</span></p>
+                      <p>Sept 2018 - Dec 2018</p>
+                        <div>
+                          <ul>
+                            <li class="workdescription">Returned values by strengthening our co-op members’ ability to anticipate and adapt to changing markets, economies, 
+                              environments and technologies</li>
+                            <li class="workdescription">Developed results-driven research architecture processes</li>
+                            <li class="workdescription">Returned values by strengthening our co-op members’ ability to anticipate and adapt to changing markets, economies, 
+                                environments and technologies</li>
+                            <li class="workdescription">Developed results-driven research architecture processes</li>
+                          </ul>
+                        </div>
+                    
+                  </div>
+                  <div class="experience tabs-panel" id="panel3v">
+                      <p class="font-weight-bold">Instructional Assitant <span style="color: rgb(100, 255, 218);">@ University of Houston</span></p>
+                      <p>Oct 2017 - Aug 2018</p>
+                        <div>
+                          <ul>
+                            <li class="workdescription">Returned values by strengthening our co-op members’ ability to anticipate and adapt to changing markets, economies, 
+                              environments and technologies</li>
+                            <li class="workdescription">Developed results-driven research architecture processes</li>
+                            <li class="workdescription">Returned values by strengthening our co-op members’ ability to anticipate and adapt to changing markets, economies, 
+                                environments and technologies</li>
+                            <li class="workdescription">Developed results-driven research architecture processes</li>
+                          </ul>
+                        </div>
+                  </div>
+                  <div class="experience tabs-panel" id="panel4v">
+                      <p class="font-weight-bold">Software Developer <span style="color: rgb(100, 255, 218);">@ Independent Contract</span></p>
+                      <p>Jan 2019 - Present</p>
+                        <div>
+                          <ul>
+                            <li class="workdescription">Returned values by strengthening our co-op members’ ability to anticipate and adapt to changing markets, economies, 
+                              environments and technologies</li>
+                            <li class="workdescription">Developed results-driven research architecture processes</li>
+                            <li class="workdescription">Returned values by strengthening our co-op members’ ability to anticipate and adapt to changing markets, economies, 
+                                environments and technologies</li>
+                            <li class="workdescription">Developed results-driven research architecture processes</li>
+                          </ul>
+                        </div>
+            
+                  </div>
+                  <div class="experience tabs-panel" id="panel5v">
+                      <p class="font-weight-bold">Software Engineer <span style="color: rgb(100, 255, 218);">@ Mindtree</span></p>
+                      <p>Jan 2019 - Present</p>
+                        <div>
+                          <ul>
+                            <li class="workdescription">Returned values by strengthening our co-op members’ ability to anticipate and adapt to changing markets, economies, 
+                              environments and technologies</li>
+                            <li class="workdescription">Developed results-driven research architecture processes</li>
+                            <li class="workdescription">Returned values by strengthening our co-op members’ ability to anticipate and adapt to changing markets, economies, 
+                                environments and technologies</li>
+                            <li class="workdescription">Developed results-driven research architecture processes</li>
+                          </ul>
+                        </div>
+                  </div>
+                 
+                </div>
               </div>
             </div>
+        </div>
+
+
+  </div>
+
   
-            <div class="card">
-              <div class="card-body">
-                <h4 class="card-title">123 Designs</h4>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, magnam.</p>
-                <p class="p-2 mb-3 bg-dark text-white">
-                  Position: Web Designer
-                </p>
-                <p class="p-2 mb-3 bg-dark text-white">
-                  Phone: (222) 222-2222
-                </p>
-              </div>
-              <div class="card-footer">
-                <h6 class="text-muted">Dates: 2013 - 2015</h6>
-              </div>
-            </div>
-  
-            <div class="card">
-              <div class="card-body">
-                <h4 class="card-title">Web Designer Pros</h4>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, magnam.</p>
-                <p class="p-2 mb-3 bg-dark text-white">
-                  Position: Web Designer
-                </p>
-                <p class="p-2 mb-3 bg-dark text-white">
-                  Phone: (333) 333-3333
-                </p>
-              </div>
-              <div class="card-footer">
-                <h6 class="text-muted">Dates: 2010 - 2013</h6>
-              </div>
-            </div>
+  <!-- WORK -->
+    <div id="work" class="collapse">
+      <div class="card card-body py-1 border-0">
+        <h2 class="font-weight-bold text-left">My Work</h2>
+      </div>
+
+      <div class="card card-body py-1 border-0">
+        <h3>What Have I Built?</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nostrum repudiandae debitis, nam iste amet.</p>
+        <div class="row no-gutters">
+          <div class="col-md-3">
+            <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox">
+              <img src="https://unsplash.it/600.jpg?image=252" alt="" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox">
+              <img src="https://unsplash.it/600.jpg?image=253" alt="" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox">
+              <img src="https://unsplash.it/600.jpg?image=254" alt="" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox">
+              <img src="https://unsplash.it/600.jpg?image=255" alt="" class="img-fluid">
+            </a>
+          </div>
+        </div>
+
+        <div class="row no-gutters">
+          <div class="col-md-3">
+            <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox">
+              <img src="https://unsplash.it/600.jpg?image=256" alt="" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="https://unsplash.it/1200/768.jpg?image=257" data-toggle="lightbox">
+              <img src="https://unsplash.it/600.jpg?image=257" alt="" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="https://unsplash.it/1200/768.jpg?image=258" data-toggle="lightbox">
+              <img src="https://unsplash.it/600.jpg?image=258" alt="" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="https://unsplash.it/1200/768.jpg?image=259" data-toggle="lightbox">
+              <img src="https://unsplash.it/600.jpg?image=259" alt="" class="img-fluid">
+            </a>
           </div>
         </div>
       </div>
+    </div>
   
-      <!-- WORK -->
-      <div id="work" class="collapse">
-        <div class="card card-body bg-warning text-white py-5">
-          <h2>My Work</h2>
-          <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, ut!</p>
-        </div>
-  
-        <div class="card card-body py-5">
-          <h3>What Have I Built?</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nostrum repudiandae debitis, nam iste amet.</p>
-          <div class="row no-gutters">
-            <div class="col-md-3">
-              <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox">
-                <img src="https://unsplash.it/600.jpg?image=252" alt="" class="img-fluid">
-              </a>
-            </div>
-            <div class="col-md-3">
-              <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox">
-                <img src="https://unsplash.it/600.jpg?image=253" alt="" class="img-fluid">
-              </a>
-            </div>
-            <div class="col-md-3">
-              <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox">
-                <img src="https://unsplash.it/600.jpg?image=254" alt="" class="img-fluid">
-              </a>
-            </div>
-            <div class="col-md-3">
-              <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox">
-                <img src="https://unsplash.it/600.jpg?image=255" alt="" class="img-fluid">
-              </a>
+
+    <!-- Contact Content -->
+    <div id="contact" class="collapse">
+      <div class="card card-body py-1 border-0">
+        <h2 class="font-weight-bold text-left">Contact</h2>
+      </div>
+
+      <div class="card card-body py-1">
+        <h3>Get In Touch</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quos illo, dicta id voluptates enim.</p>
+        <form>
+          <div class="form-group">
+            <div class="input-group input-group-lg">
+              <div class="input-group-prepend">
+                <span class="input-group-text bg-danger text-white">
+                  <i class="fas fa-user"></i>
+                </span>
+              </div>
+              <input type="text" class="form-control bg-dark text-white" placeholder="Name">
             </div>
           </div>
-  
-          <div class="row no-gutters">
-            <div class="col-md-3">
-              <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox">
-                <img src="https://unsplash.it/600.jpg?image=256" alt="" class="img-fluid">
-              </a>
-            </div>
-            <div class="col-md-3">
-              <a href="https://unsplash.it/1200/768.jpg?image=257" data-toggle="lightbox">
-                <img src="https://unsplash.it/600.jpg?image=257" alt="" class="img-fluid">
-              </a>
-            </div>
-            <div class="col-md-3">
-              <a href="https://unsplash.it/1200/768.jpg?image=258" data-toggle="lightbox">
-                <img src="https://unsplash.it/600.jpg?image=258" alt="" class="img-fluid">
-              </a>
-            </div>
-            <div class="col-md-3">
-              <a href="https://unsplash.it/1200/768.jpg?image=259" data-toggle="lightbox">
-                <img src="https://unsplash.it/600.jpg?image=259" alt="" class="img-fluid">
-              </a>
+
+          <div class="form-group">
+            <div class="input-group input-group-lg">
+              <div class="input-group-prepend">
+                <span class="input-group-text bg-danger text-white">
+                  <i class="fas fa-envelope"></i>
+                </span>
+              </div>
+              <input type="email" class="form-control bg-dark text-white" placeholder="Email">
             </div>
           </div>
-        </div>
+
+          <div class="form-group">
+            <div class="input-group input-group-lg">
+              <div class="input-group-prepend">
+                <span class="input-group-text bg-danger text-white">
+                  <i class="fas fa-pencil-alt"></i>
+                </span>
+              </div>
+              <textarea class="form-control bg-dark text-white" placeholder="Name"></textarea>
+            </div>
+          </div>
+
+          <input type="submit" value="Submit" class="btn btn-danger btn-block btn-lg">
+        </form>
       </div>
-  
-      <!-- CONTACT -->
-      <div id="contact" class="collapse">
-        <div class="card card-body bg-danger text-white py-5">
-          <h2>Contact</h2>
-          <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil, ut!</p>
-        </div>
-  
-        <div class="card card-body py-5">
-          <h3>Get In Touch</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quos illo, dicta id voluptates enim.</p>
-          <form>
-            <div class="form-group">
-              <div class="input-group input-group-lg">
-                <div class="input-group-prepend">
-                  <span class="input-group-text bg-danger text-white">
-                    <i class="fas fa-user"></i>
-                  </span>
-                </div>
-                <input type="text" class="form-control bg-dark text-white" placeholder="Name">
-              </div>
-            </div>
-  
-            <div class="form-group">
-              <div class="input-group input-group-lg">
-                <div class="input-group-prepend">
-                  <span class="input-group-text bg-danger text-white">
-                    <i class="fas fa-envelope"></i>
-                  </span>
-                </div>
-                <input type="email" class="form-control bg-dark text-white" placeholder="Email">
-              </div>
-            </div>
-  
-            <div class="form-group">
-              <div class="input-group input-group-lg">
-                <div class="input-group-prepend">
-                  <span class="input-group-text bg-danger text-white">
-                    <i class="fas fa-pencil-alt"></i>
-                  </span>
-                </div>
-                <textarea class="form-control bg-dark text-white" placeholder="Name"></textarea>
-              </div>
-            </div>
-  
-            <input type="submit" value="Submit" class="btn btn-danger btn-block btn-lg">
-          </form>
-        </div>
-      </div>
-  
+    </div>
+
   
 
 
-    <!-- FOOTER -->
-    <footer id="main-footer" class="p-5 bg-dark text-white">
+    <!-- Resume Download Bottom -->
+    <footer id="main-footer" class="p-2 text-white">
             <div class="row">
               <div class="col-md-6">
                 <a href="docs/SenthilkumarSivaraman_Resume.pdf" class="btn btn-outline-light" target="_blank">
@@ -391,10 +456,9 @@
                 </a>
               </div>
             </div>
-          </footer>
-        </div>
-    
-      </div>
+    </footer>
+
+  </div>
   
   
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
@@ -404,8 +468,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
     crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
-    
-    
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.0-rc.3/dist/js/foundation.min.js"></script>
+    <script src="js/style.js"></script>
+
     <script>
       $('.port-item').click(function () {
         $('.collapse').collapse('hide');
