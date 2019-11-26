@@ -15,12 +15,13 @@
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+    background: none;
 }
 .ct-socials li {
     padding: 0px 0;
 }
 .ct-socials li a {
-    background:rgb(58, 54, 61);
+    background:transparent;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -30,7 +31,6 @@
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    color: #fff;
     width: 44px;
     height: 54px;
     -webkit-transition: all 0.15s ease-in-out;
@@ -39,7 +39,27 @@
     padding-left: 5px;
 }
 
+.white{
+    font-size: 20px;
+    color: rgb(230, 241, 255);
+}
+
+
 .ct-socials li a:hover {
     cursor: pointer;
-    opacity: 0.7;
+    text-decoration: none;
+}
+
+.white:hover{
+    color: rgb(100, 255, 218);
+}
+
+.ct-socials:after {
+    content:"";
+    border-left: 1px solid;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 240px;
+    box-sizing: inherit;
 }
