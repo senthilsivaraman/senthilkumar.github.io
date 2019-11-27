@@ -250,8 +250,11 @@ span.navHead {
 }
 
    /*Selected Tab*/
+
+
    .tabs-title>a:focus, .tabs-title>a[aria-selected=true]{
     background:transparent;
+    
   }
 
   .tabs-title2>a:focus, .tabs-title2>a[aria-selected=true]{
@@ -290,14 +293,15 @@ span.navHead {
  
 
   /* Job Description*/
-  li.workdescription, li.expdescription {
+  li.workdescription, li.edudescription {
       list-style-type: none;
 }
 
-  li.workdescription::before, li.expdescription::before {
+  li.workdescription::before, li.edudescription::before {
       content: "►";
       line-height: 40px;
       padding-right: 2em;
+      color:  rgb(100, 255, 218);
   }
 
   .experience, .education{
