@@ -16,6 +16,16 @@ body{
     background-image: url("img/Senthil.jpg");
 }
 
+ul.list-inline {
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    font-size: small;
+}
+
+li.list-inline-item {
+    border: 1px solid rgb(100, 255, 218);
+    color: rgb(100, 255, 218);
+    opacity: 0.8;
+}
 
 p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
