@@ -373,3 +373,8 @@ span.navHead {
     border: none;
  
   }
+
+  .certification {
+    max-width: 2px;
+    max-height: 93px;
+  }
